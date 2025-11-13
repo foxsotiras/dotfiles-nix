@@ -29,7 +29,7 @@
           stable = nixpkgs-stable.legacyPackages.${system};
         })
         (final: prev: {
-          xray = xray-russia.packages.${final.system}.xray-russia;
+          xray = xray-russia.packages.${system}.xray-russia;
         })
       ];
     in {
